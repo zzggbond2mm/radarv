@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Checkpoints and runs
+checkpoints/
+runs/
+*.pth
+*.pt
+*.ckpt
+
+# Logs
+*.log
+tuning_results_log.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test data
+test/
+train/
